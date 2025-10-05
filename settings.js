@@ -2,10 +2,10 @@ require('dotenv').config();
 
 module.exports = {
   //Enter your session id here (optional)
-  SESSION_ID: process.env.SESSION_ID || '',
+  SESSION_ID: process.env.SESSION_ID || 'Hillu khan og',
   
   //Enter your number here for administrative access to the bot
-  BOT_ADMIN: process.env.BOT_ADMIN || '254712345678',
+  BOT_ADMIN: process.env.BOT_ADMIN || '255699864901',
   
   //Bot web server port
   PORT: parseInt(process.env.PORT) || 2605,
@@ -26,7 +26,7 @@ module.exports = {
   TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '',
   
    //Antidelete and Antiedit functionality, set true to enable and false to disable. (⚠️ This function consumes a lot of memory + storage, only enable if you have enough resources ⚠️)
-   ANTI_DELETE: process.env.ANTI_DELETE || 'false',
+   ANTI_DELETE: process.env.ANTI_DELETE || 'true',
   
   
   //⚠️ Premium users settings ⚠️
